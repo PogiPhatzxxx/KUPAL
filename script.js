@@ -67,7 +67,7 @@ function typeTextWithScramble(element, finalText, speed = 3) {
         {
           method: 'POST',
           headers: {
-            Authorization: 'Bearer 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',
+            Authorization: 'Bearer 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',
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
