@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Kupal Ka</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+  <body class="light-mode">
+    <div class="mode-toggle">
+      <span class="toggle-label">HEAVEN MODE</span>
+      <label class="switch">
+        <input type="checkbox" id="modeToggle" checked>
+        <span class="slider"></span>
+      </label>
+    </div>
+    <div class="container">
+      <h2>[ KUPAL PHATZ ]</h2>
+      <div class="form-group">
+        <input
+          type="text"
+          class="form-control"
+          id="userInput"
+          placeholder="Diri type (di mag minango)" />
+      </div>
+      <button class="btn" onclick="sendMessage()">EXECUTE</button>
+      <div id="response">Ready</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+</html>
